@@ -17,9 +17,11 @@ This project involves developing a responsive website for Deeya, aiming to conne
 - Emmanuel Allotey – Frontend Developer
 - Freda Djebu-Tsorme – Database Designer
 
-## Communication Channels
-- Primary: WhatsApp
-- Official Correspondence: Email
+## Key Communication Tools
+- WhatsApp: Quick discussions and urgent updates
+- Email: Official communication and documentation
+- GitHub: Development collaboration and code reviews
+- Miro: Brainstorming, planning sessions and Task tracking
 
 ## Technologies Used
 - HTML, CSS, JavaScript (Frontend)
