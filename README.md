@@ -25,6 +25,10 @@ This project involves developing a responsive website for Deeya, aiming to conne
 - HTML, CSS, JavaScript (Frontend)
 - Database design by Freda (Backend to follow)
 
+## Miro Board
+- Click here to access the Miro Board: https://miro.com/app/board/uXjVLcq3uk4=/?share_link_id=128165340893
+
+
 ## How to Contribute
 1. Clone the repository:
    ```bash
