@@ -17,12 +17,6 @@ This project involves developing a responsive website for Deeya, aiming to conne
 - Emmanuel Allotey – Frontend Developer
 - Freda Djebu-Tsorme – Database Designer
 
-## Key Communication Tools
-- WhatsApp: Quick discussions and urgent updates
-- Email: Official communication and documentation
-- GitHub: Development collaboration and code reviews
-- Miro: Brainstorming, planning sessions and Task tracking
-
 ## Technologies Used
 - HTML, CSS, JavaScript (Frontend)
 - Database design by Freda (Backend to follow)
@@ -35,3 +29,37 @@ This project involves developing a responsive website for Deeya, aiming to conne
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/deeya-website.git
+
+
+# Communication Guidelines
+
+## Tools and Channels  
+- **WhatsApp**: Daily updates, urgent questions, and informal discussions.  
+- **Email**: Official communications and documentation exchange.  
+- **GitHub Issues**: Task tracking, progress updates, and bug reporting.  
+- **GitHub Pull Requests (PRs)**: Code review and feature integration.  
+- **Miro**: Planning, brainstorming, and visual collaboration.
+
+## Communication Expectations  
+- **Daily Updates**: Share significant progress or blockers on WhatsApp.  
+- **Weekly Check-Ins**: Every Friday via WhatsApp.  
+- **Task Updates**: Use GitHub Issues to document status updates for assigned tasks.  
+
+## Roles and Responsibilities  
+- **Developers**:  
+  - Open Issues for tasks and blockers.  
+  - Submit Pull Requests for code review.
+  - Respond to feedback on PRs promptly.  
+
+- **UX Designer**:  
+  - Share design feedback and updates through Issues or PRs.  
+
+- **Project Manager (Isaac)**:  
+  - Monitor Issues and PRs for progress.  
+  - Coordinate problem-solving and status reporting.  
+
+## Code of Conduct  
+- Keep communications respectful and professional.  
+- Respond promptly to inquiries and feedback within 12 hours.  
+- Raise blockers early to avoid delays.
+
