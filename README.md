@@ -28,7 +28,7 @@ This project involves developing a responsive website for Deeya, aiming to conne
 ## How to Contribute
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/deeya-website.git
+   git clone https://github.com/Ike-projects/deeya-website.git
 
 
 # Communication Guidelines
