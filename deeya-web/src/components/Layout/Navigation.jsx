@@ -1,4 +1,8 @@
+import Button from '../Button';
 const Navigation = () => {
+    const handleClick = () => {
+        alert('Button clicked');
+    }
     return (
         <nav className="border w-[1360px] flex justify-between px-[40px] py-[4.5px] rounded-[32px] items-center bg-white shadow-md mt-[40px]">
             <h1 className="text-h2-heading font-heebo">Deeya</h1>
@@ -17,7 +21,13 @@ const Navigation = () => {
                 </span>
                 <div className="space-x-[32px]">
                     <button>Log In</button>
-                    <button className="px-[14px] py-[10px] rounded-2xl bg-[#2FB078] text-white w-[120px]">Register</button>
+                    <Button
+                        // onClick={""}
+                        label="Register"
+                        disabled={false}
+                        className="px-[14px] py-[10px] rounded-2xl bg-[#2FB078] text-white w-[120px]"
+                    />
+
                 </div>
             </div>
         </nav>
