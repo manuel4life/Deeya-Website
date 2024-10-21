@@ -23,7 +23,29 @@ import VISA from '../assets/images/visa.svg';
 import VEGETABLES from '../assets/images/Vegetables.png';
 
 
-
+const sampleBlogData = [
+    {
+        image: TRUCK,
+        date: '12th August, 2021',
+        title:"Deeya has crossed over 30, 000 users becoming the no.1 marketplace for farm produce",
+        description:"Deeya started in the year 2023 and after raising capital of up to $100,000, it implemented a unique strategy",
+        author:"Isaac"
+    },
+    {
+        image: GREETING,
+        date: '12th August, 2021',
+        title:"We have been able to secure new partnerships with several countries including major companies in",
+        description:"After a year of launching, we have been able to grow our partnership from 4 to now over 20. This has helped us",
+        author:"Isaac"
+    },
+    {
+        image: SMILE,
+        date: '12th August, 2021',
+        title:"Our Input app has been updated with some new features",
+        description:"We are excited to announce that Deeya’s input app has been updated with features that will help our users",
+        author:"Isaac"
+    }
+];
 
 
 export {
@@ -49,5 +71,6 @@ export {
     TRUCK,
     VECTOR,
     VISA,
-    VEGETABLES
+    VEGETABLES,
+    sampleBlogData
 }

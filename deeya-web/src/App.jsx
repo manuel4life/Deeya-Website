@@ -6,6 +6,7 @@ import Header from './components/Layout/Header';
 import { Outlet } from 'react-router-dom';
 import Footer from './components/Layout/Footer';
 import './App.css'
+import InputApp from './components/InputApp';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header/>
       <Outlet/>
+      {/* <InputApp/> */}
       <Footer/>
     </>
   )
