@@ -14,7 +14,11 @@ function App() {
   return (
     <>
       <Header/>
+      <main className='min-h-screen'>
       <Outlet/>
+
+      </main>
+
       {/* <InputApp/> */}
       <Footer/>
     </>

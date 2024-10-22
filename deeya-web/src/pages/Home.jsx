@@ -14,16 +14,15 @@ const Home = () => {
             }}>
                 <div className='flex items-center justify-center flex-col'>
                     <h1 className='text-heebo font-heebo'>Deeya</h1>
-                    <p className='text-h3-heading mt-[16px] mb-[30px] font-heebo'>Enjoy fresh, affordable, and traceable farm produce, delivered to you in just 24 to 48 hours!</p>
+                    <p className='text-h3-heading mt-[16px] mb-[30px] md:w-[706px] w-[315px] xl:w-full text-center font-heebo'>Enjoy fresh, affordable, and traceable farm produce, delivered to you in just 24 to 48 hours!</p>
                     <Button label="Start Buying" disabled={false} className='px-[21px] py-[13px] bg-[#2FB078] text-white rounded-[16px] text-ui-label-semi-bold font-heebo' />
                 </div>
             </div>
-            <section className='py-14 flex items-center justify-center flex-col gap-[32px] relative'>
-                <div className='bg-[#70824C] md:w-[1118px] w-full h-auto md:h-[151px] rounded-[16px] flex md:flex-row flex-col justify-between items-center px-[50px] absolute -top-[90px]'>
+            <section className='py-14 flex items-center justify-center flex-col xl:gap-[32px] relative'>
+                <div className='bg-[#70824C] md:w-[706px] xl:w-[1118px] w-full h-auto md:h-[237px] xl:h-[151px] rounded-[16px] flex xl:flex-row flex-col xl:justify-between justify-center xl:gap-0 gap-10 items-center px-[50px] absolute -top-[90px]'>
                     <div className='relative'>
                         <img className='hidden md:flex absolute left-[115px] -top-[32px] ' src={ARROW} alt="" />
-                        <p className='text-heading font-heebo text-white w-[431px]'>Why Choose DEEYA for your Farm Produce </p>
-
+                        <p className='text-heading font-heebo text-white xl:w-[431px]'>Why Choose DEEYA for your Farm Produce </p>
                     </div>
                     <div className='flex justify-between gap-[145px]'>
                         <div className='flex gap-[16px] items-center'>
@@ -57,7 +56,7 @@ const Home = () => {
                         </svg>
 
                     </div>
-                   <div className='overflow-x-hiddens gap-[60px] w-full grid grid-cols-3 '>
+                   <div className='overflow-x-hiddens gap-[60px] w-full md:w-[1086px] grid grid-cols-3 '>
                    {
                         sampleTestimonialData.map((testimonial) => (
                             <TestimonialCard image={testimonial.image} name={testimonial.name} testimonial={testimonial.testimonial} />
@@ -74,7 +73,7 @@ const Home = () => {
                 <div className='flex justify-center mt-[20px] space-x-[10px]'>
                     <Button label={"Sign up to buy"} className='bg-white px-[10px] py-[14px] w-[150px] h-[50px] text-ui-label-semi-bold font-heebo' />
                 </div>
-                <img className='hidden md:absolute right-72 bottom-12' src={STRAWBERRY} alt="" />
+                <img className='hidden md:flex absolute right-72 bottom-12' src={STRAWBERRY} alt="" />
             </section>
             <section className='flex flex-col items-center '>
                 <h2 className='text-h2-heading font-heebo mt-[50px]'>Our Blogs</h2>
