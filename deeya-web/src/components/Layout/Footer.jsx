@@ -1,10 +1,10 @@
 import {VISA, MASTERCARD,AMERICAN_EXPRESS,FLUTTERWAVE,PAYSTACK, INSTAGRAM, FACEBOOK, TWITTER} from '../../constants/index';
 const Footer = () => {
     return (
-        <footer className='flex items-center justify-center flex-col px-[80px] py-[48px]'>
-            <section className='flex items-center justify-between w-[924px]'>
+        <footer className='flex items-center justify-center flex-col md:px-[80px] py-[48px]'>
+            <section className='flex md:flex-row flex-col items-center justify-between w-full md:w-[924px]'>
                 <h1 className='text-h3-heading font-heebo text-[#424345]'>All Payments are secured by</h1>
-                <div className='flex gap-[30px]'>
+                <div className='flex md:gap-[30px]'>
                     <img src={PAYSTACK} alt="" />
                     <img src={FLUTTERWAVE} alt="" />
                     <img src={VISA} alt="" />
@@ -12,24 +12,24 @@ const Footer = () => {
                     <img src={MASTERCARD} alt="" />
                 </div>
             </section>
-            <section className=' flex justify-between w-[1280px] mt-[60px]'>
+            <section className=' md:flex-row flex-col flex  items-center md:justify-between md:w-[1280px] mt-[60px]'>
                 <div>
-                    <h1 className='font-heebo text-h2-heading leading-none mb-[20px]'>Deeya</h1>
-                    <p>Enjoy fresh, affordable, and traceable farm produce, delivered to <br />you in just 24 to 48 hours!</p>
+                    <h1 className='font-heebo text-h2-heading md:text-start text-center leading-none mb-[20px]'>Deeya</h1>
+                    <p className='md:text-start text-center '>Enjoy fresh, affordable, and traceable farm produce, delivered to <br />you in just 24 to 48 hours!</p>
                 </div>
-                <div className='flex gap-[100px]'>
+                <div className='md:flex-row flex-col-reverse flex gap-[100px]'>
                     <div className=''>
-                        <h1 className='mb-[20px] font-heebo text-h3-heading'>Quick Links</h1>
-                        <ul className='space-y-[20px]'>
-                            <li className='font-heebo text-ui-label-medium'>Create an account</li>
-                            <li className='font-heebo text-ui-label-medium'> Log in</li>
-                            <li className='font-heebo text-ui-label-medium'> Marketplace</li>
-                            <li className='font-heebo text-ui-label-medium'>Blog</li>
-                            <li className='font-heebo text-ui-label-medium'>Terms & Conditions</li>
+                        <h1 className='mb-[20px] font-heebo text-h3-heading md:text-start text-center'>Quick Links</h1>
+                        <ul className='space-y-[20px] md:text-start text-center '>
+                            <li className='font-heebo text-ui-label-medium '>Create an account</li>
+                            <li className='font-heebo text-ui-label-medium '> Log in</li>
+                            <li className='font-heebo text-ui-label-medium'  > Marketplace</li>
+                            <li className='font-heebo text-ui-label-medium '>Blog</li>
+                            <li className='font-heebo text-ui-label-medium '>Terms & Conditions</li>
                         </ul>
                     </div>
                     <div> 
-                        <h1 className='font-heebo text-h3-heading mb-[20px]'>Contact Us</h1>
+                        <h1 className='font-heebo text-h3-heading mb-[20px]md:text-start text-center '>Contact Us</h1>
                         <p className='font-heebo text-ui-label-medium'>customer@deeya.com</p>
                     </div>
                     <div className='space-y-[20px]'>

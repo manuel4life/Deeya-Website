@@ -2,7 +2,7 @@ import { SHOPPING, VECTOR , GROUP} from "../constants";
 import Button from "./Button";
 const InputApp = () => {
     return (
-        <section className="flex bg-[#426B31]">
+        <section className="flex md:flex-row flex-col bg-[#426B31]">
             <img src={SHOPPING} alt="" className="flex-1" />
             <div className=" flex flex-1 flex-col items-center justify-center  ms-[48px] gap-[50px]">
                 <div className="w-full gap-[16px] flex flex-col text-white ms-10">

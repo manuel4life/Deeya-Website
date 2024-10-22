@@ -1,6 +1,6 @@
 import FACEBOOK from '../assets/images/logos_facebook.svg';
 import AMERICAN_EXPRESS from '../assets/images/american express.svg';
-import CREATE from '../assets/images/crate_5919433 1.svg';
+import CREATE from '../assets/images/crate.svg';
 import ELLIPSE1 from '../assets/images/Ellipse 2 (1).png';
 import ELLIPSE2 from '../assets/images/Ellipse 2 (2).png';
 import ELLIPSE3 from '../assets/images/Ellipse 2.png';
@@ -21,6 +21,9 @@ import TRUCK from '../assets/images/TrucK.png';
 import VECTOR from '../assets/images/Vector.svg';
 import VISA from '../assets/images/visa.svg';
 import VEGETABLES from '../assets/images/Vegetables.png';
+import ARROW from '../assets/images/arrow.png';
+import STRAWBERRY from '../assets/images/Strawberry.png';
+import ABRICOT from '../assets/images/Abricot.png';
 
 
 const sampleBlogData = [
@@ -48,6 +51,25 @@ const sampleBlogData = [
 ];
 
 
+
+const sampleTestimonialData = [
+    {
+        image: ELLIPSE3,
+        name: 'Jessica',
+        testimonial: 'I totally The site is very fantastic. I recommend it to anyone who wants to buy any farm produce. how easy it is to use this platform'
+    },
+    {
+        image: ELLIPSE1,
+        name: 'Nadia',
+        testimonial: 'I totally love how easy it is to use this platform'
+    },
+    {
+        image: ELLIPSE2,
+        name: 'James',
+        testimonial: 'I totally I have been using Deeya for a while now and I’m super grateful I discovered this platform how easy it is to use this platform'
+    }
+]
+
 export {
     FACEBOOK,
     AMERICAN_EXPRESS,
@@ -72,5 +94,9 @@ export {
     VECTOR,
     VISA,
     VEGETABLES,
-    sampleBlogData
+    sampleBlogData,
+    sampleTestimonialData,
+    ARROW,
+    STRAWBERRY,
+    ABRICOT
 }
