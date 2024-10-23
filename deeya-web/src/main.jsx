@@ -5,6 +5,7 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import AboutUs from './pages/AboutUs.jsx'
+import MarketPlace from './pages/MarketPlace.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path:'/aboutus',
         element:<AboutUs/>
+      },
+      {
+        path:'/marketplace',
+        element:<MarketPlace/>
       }
     ]
   }

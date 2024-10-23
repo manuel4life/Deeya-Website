@@ -24,7 +24,7 @@ import VEGETABLES from '../assets/images/Vegetables.png';
 import ARROW from '../assets/images/arrow.png';
 import STRAWBERRY from '../assets/images/Strawberry.png';
 import ABRICOT from '../assets/images/Abricot.png';
-
+import PLUS from '../assets/images/plus.png';
 
 const sampleBlogData = [
     {
@@ -70,6 +70,115 @@ const sampleTestimonialData = [
     }
 ]
 
+
+const sampleMarketPlaceData = [
+    {
+        image: POTATOES,
+        title: "Vegetables",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Potatoes",
+        discription: "Fresh potatoes from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Shopping",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Vegetables",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Potatoes",
+        discription: "Fresh potatoes from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Shopping",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Vegetables",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Potatoes",
+        discription: "Fresh potatoes from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Shopping",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Vegetables",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Potatoes",
+        discription: "Fresh potatoes from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Shopping",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Vegetables",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Potatoes",
+        discription: "Fresh potatoes from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+    {
+        image: POTATOES,
+        title: "Shopping",
+        discription: "Fresh vegetables from the farm",
+        price: "50,00",
+        size:"1 kg"
+    },
+]
+
 export {
     FACEBOOK,
     AMERICAN_EXPRESS,
@@ -98,5 +207,7 @@ export {
     sampleTestimonialData,
     ARROW,
     STRAWBERRY,
-    ABRICOT
+    ABRICOT,
+    PLUS,
+    sampleMarketPlaceData,
 }
