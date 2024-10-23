@@ -91,7 +91,7 @@ const Home = () => {
             </section>
             <div className='space-y-[71px]'>
                 <section className='bg-[#384E2C] h-[210px] space-y-auto flex flex-col justify-center'>
-                    <h2 className='text-h2-heading font-heebo text-white text-center'>Partners</h2>
+                    <h2 className='text-h3-heading font-heebo text-white text-center mb-[50px]'>Partners</h2>
                     <h3 className='text-h3-heading font-heebo text-white text-center'>Alx Ventures</h3>
                 </section>
                 <InputApp />
