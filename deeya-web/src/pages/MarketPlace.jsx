@@ -15,7 +15,7 @@ const MarketPlace = () => {
                     <h1 className='text-heebo font-heebo'>MarketPlace</h1>
                 </div>
             </section>
-            <setion className="flex flex-col items-center justify-center gap-10 mt-[30px]">
+            <section className="flex flex-col items-center justify-center gap-10 mt-[30px]">
                 <h1 className="text-h2-heading font-heebo">All Categories</h1>
                 <div className="bg-[#ECF2EC] rounded-[14px] px-[14px] py-3 flex justify-between items-center w-[308px]">
                     <input type="text" placeholder="Search for what you like to order" className="bg-[#ECF2EC] outline-none" />
@@ -24,7 +24,7 @@ const MarketPlace = () => {
                     </svg>
 
                 </div>
-            </setion>
+            </section>
             <section className="p-[80px] font-heebo flex flex-col justify-center items-center">
                 <h1 className="text-end text-h3-heading w-[1260px] mb-5">1-15 OF 300 RESULTS</h1>
                 <div className="flex gap-5 justify-center">
@@ -57,7 +57,7 @@ const MarketPlace = () => {
                             {
                                 sampleMarketPlaceData.map((item, index) => {
                                     return (
-                                        <MarketPlaceCard key={index} image={item.image} title={item.title} discription={item.discription} price={item.price} size={item.size} />
+                                        <MarketPlaceCard key={index} image={item.image} title={item.title} discription={item.discription} price={item.price} size={item.size} id={index}/>
                                     )
                                 })
                             }

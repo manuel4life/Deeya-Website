@@ -179,6 +179,33 @@ const sampleMarketPlaceData = [
     },
 ]
 
+const sampleProdctDetailsCategoryData= [
+    {
+        image: OYSTER,
+        name: "Mushrooms",
+        price: "200",
+        size:"1 kg"
+    },
+    {
+        image: OYSTER,
+        name: "Mushrooms",
+        price: "200",
+        size:"1 kg"
+    },
+    {
+        image: OYSTER,
+        name: "Mushrooms",
+        price: "200",
+        size:"1 kg"
+    },
+    {
+        image: OYSTER,
+        name: "Mushrooms",
+        price: "200",
+        size:"1 kg"
+    }
+]
+
 export {
     FACEBOOK,
     AMERICAN_EXPRESS,
@@ -210,4 +237,5 @@ export {
     ABRICOT,
     PLUS,
     sampleMarketPlaceData,
+    sampleProdctDetailsCategoryData
 }
