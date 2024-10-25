@@ -24,6 +24,8 @@ import VEGETABLES from '../assets/images/Vegetables.png';
 import ARROW from '../assets/images/arrow.png';
 import STRAWBERRY from '../assets/images/Strawberry.png';
 import ABRICOT from '../assets/images/Abricot.png';
+import ABOUTHERO from '../assets/images/aboutimage.png';
+import FOUNDER from '../assets/images/founder.png';
 
 
 const sampleBlogData = [
@@ -98,5 +100,8 @@ export {
     sampleTestimonialData,
     ARROW,
     STRAWBERRY,
-    ABRICOT
+    ABRICOT,
+
+    FOUNDER,
+    ABOUTHERO,
 }
