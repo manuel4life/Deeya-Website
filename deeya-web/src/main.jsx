@@ -8,6 +8,7 @@ import AboutUs from './pages/AboutUs.jsx'
 import MarketPlace from './pages/MarketPlace.jsx'
 import ProductDetails from './pages/ProductDetails.jsx'
 import Blog from './pages/Blog.jsx'
+import BlogDetails from './pages/BlogDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:'/blog',
         element:<Blog/>
+      },
+      {
+        path:'/blog/:id',
+        element:<BlogDetails/>
       }
     ]
   }
