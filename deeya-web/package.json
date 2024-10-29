@@ -1,7 +1,7 @@
 {
   "name": "deeya-web",
   "private": true,
-  "homepage": "https://ike-projects.github.io/Deeya-Website",
+  "homepage": "https://ike-projects.github.io/Deeya-Website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
