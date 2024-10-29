@@ -18,7 +18,6 @@ function App() {
       <Outlet/>
 
       </main>
-
       {/* <InputApp/> */}
       <Footer/>
     </>
