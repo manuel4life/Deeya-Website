@@ -13,7 +13,7 @@ import BlogDetails from './pages/BlogDetails.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Deeya-Website/',
     element: <App/>,
     errorElement: <div>404 Not Found</div>,
     children: [
