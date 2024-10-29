@@ -24,7 +24,7 @@ const Blog = () => {
 
       <div className="md:px-[100px] px-[20px] py-[70px] flex justify-center flex-col items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[30px]">
-          {sampleBlogsData.map((blog) => (
+          {sampleBlogsData.map((blog,index) => (
             <BlogCard
               key={blog.title}
               image={blog.image}
@@ -32,6 +32,7 @@ const Blog = () => {
               title={blog.title}
               description={blog.description}
               author={blog.author}
+              id={index}
             />
           ))}
         </div>

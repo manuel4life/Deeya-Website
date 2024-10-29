@@ -1,13 +1,16 @@
 {
   "name": "deeya-web",
   "private": true,
+  "homepage": "https://ike-projects.github.io/Deeya-Website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/heebo": "^5.1.0",
