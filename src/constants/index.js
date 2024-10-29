@@ -17,7 +17,7 @@ import HERO from '../assets/images/Hero.png';
 import SHOPPING from '../assets/images/Shopping.png';
 import SIBLINGS from '../assets/images/Siblings.svg';
 import SMILE from '../assets/images/Smile.png';
-import TRUCK from '../assets/images/TrucK.png';
+import TRUCK from '../assets/images/Truck.png';
 import VECTOR from '../assets/images/Vector.svg';
 import VISA from '../assets/images/visa.svg';
 import VEGETABLES from '../assets/images/Vegetables.png';
